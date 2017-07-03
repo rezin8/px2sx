@@ -1,8 +1,9 @@
-Using the PX2SX.pl script for Cigna
+Using the PX2SX.pl script.
+====================================================
 
 Installation:
 
-1. Download and install Strawberry Perl from http://strawberryperl.com/ (will require Run Elevated)
+1. Download and install Strawberry Perl from http://strawberryperl.com/ (will requre Run Elevated)
 2. Download the px2sx.pl repository from github: https://github.com/rezin8/px2sx. Extract it to the C:/Strawberry directory.
 3. From the command prompt, move to C:\Strawberry.
 	a. px2sx.pl requires the NetAddr::IP dependency. In order to install that, we can use cpan.
@@ -17,13 +18,13 @@ C:\Strawberry>perl px2sx.pl
 
 Usage:  perl px2sx.pl [-cgjns] [-p <STRING>] [-z <zone.file>] <config.file>
 
-Flags:  -c Create .CSV files as well as Junos configuration
-        -g Write address objects to the global address-book
-        -j Generate config file syntax instead of set commands
-        -n Do not combine ACLs, ie: one policy per ACL
-        -s Partial ACL combining; services only
-        -p <STRING> Prepend security policies with this string
-        -z <zone.file > Do not create a Zone file, use this one instead
+Flags:	-c Create .CSV files as well as Junos configuration
+		-g Write address objects to the global address-book
+		-j Generate config file syntax instead of set commands
+		-n Do not combine ACLs, ie: one policy per ACL
+		-s Partial ACL combining; services only
+		-p <STRING> Prepend security policies with this string
+		-z <zone.file > Do not create a Zone file, use this one instead
 
 Before we use the command, there's some housekeeping that we need to take care of. Notepad++ will make this easier. It can be downloaded from https://notepad-plus-plus.org/. Obviously you can also use your favorite text editor, but I'll only document the commands for Notepad++.
 
