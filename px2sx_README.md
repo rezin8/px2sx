@@ -27,7 +27,7 @@ There are some command line flags which are described below. You need Perl 5.012
 or later, and the NetAddr::IP module in order for it to run. It should run on most
 platforms, but hasn't been extensively tested.
 
-The NetAddr::IP module is (c) Luis E. Muñoz 1999-2007 and (c) Michael Robinton 2006-2010
+The NetAddr::IP module is (c) Luis E. MuÃ±oz 1999-2007 and (c) Michael Robinton 2006-2010
 
 Note that file handling is somewhat unforgiving, in that it will happily and without
 prompting overwrite any output files with the same name if run more than once. You
