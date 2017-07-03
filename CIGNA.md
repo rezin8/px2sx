@@ -2,7 +2,7 @@ Using the PX2SX.pl script for Cigna
 
 Installation:
 
-1. Download and install Strawberry Perl from http://strawberryperl.com/ (will Run Elevated)
+1. Download and install Strawberry Perl from http://strawberryperl.com/ (will require Run Elevated)
 2. Download the px2sx.pl repository from github: https://github.com/rezin8/px2sx. Extract it to the C:/Strawberry directory.
 3. From the command prompt, move to C:\Strawberry.
 	a. px2sx.pl requires the NetAddr::IP dependency. In order to install that, we can use cpan.
