@@ -1,4 +1,4 @@
-#Using the PX2SX.pl script.
+Using the PX2SX.pl script.
 ====================================================
 
 Installation:
@@ -16,17 +16,17 @@ Usage:
 
 Now you should have everything you need installed to use the script. Here's the command info.
 
->    C:\Strawberry>perl px2sx.pl
->    
->    Usage:  perl px2sx.pl [-cgjns] [-p <STRING>] [-z <zone.file>] <config.file>
->    
->    Flags:  -c Create .CSV files as well as Junos configuration  
->            -g Write address objects to the global address-book  
->            -j Generate config file syntax instead of set commands  
->            -n Do not combine ACLs, ie: one policy per ACL  
->            -s Partial ACL combining; services only  
->            -p <STRING> Prepend security policies with this string  
->            -z <zone.file > Do not create a Zone file, use this one instead  
+    C:\Strawberry>perl px2sx.pl
+    
+    Usage:  perl px2sx.pl [-cgjns] [-p <STRING>] [-z <zone.file>] <config.file>
+    
+    Flags:  -c Create .CSV files as well as Junos configuration  
+            -g Write address objects to the global address-book  
+            -j Generate config file syntax instead of set commands  
+            -n Do not combine ACLs, ie: one policy per ACL  
+            -s Partial ACL combining; services only  
+            -p <STRING> Prepend security policies with this string  
+            -z <zone.file > Do not create a Zone file, use this one instead  
 
 Before we use the command, there's some housekeeping that we need to take care of. Notepad++ will make this easier. It can be downloaded from https://notepad-plus-plus.org/. Obviously you can also use your favorite text editor, but I'll only document the commands for Notepad++.
 
