@@ -28,7 +28,7 @@ Now you should have everything you need installed to use the script. Here's the 
             -p <STRING> Prepend security policies with this string  
             -z <zone.file > Do not create a Zone file, use this one instead  
 
-Before we use the command, there's some housekeeping that we need to take care of. Notepad++ will make this easier. It can be downloaded from https://notepad-plus-plus.org/. Obviously you can also use your favorite text editor, but I'll only document the commands for Notepad++.
+Before we use the command, there's some housekeeping that we need to take care of. Notepad++ will make this easier. It can be downloaded from https://notepad-plus-plus.org/. Obviously you can also use your favorite text editor, but I'll only document the commands for Notepad++. 
 
 1. Create a new file named "zones.txt" in the C:\Strawberry directory. In that file, we'll need 2 things:  
     1. RFC 1918 Address Space for B2B-INSIDE  
