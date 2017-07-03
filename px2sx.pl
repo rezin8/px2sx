@@ -2,12 +2,12 @@
 # px2sx.pl, version 2.58, 10th July 2012, (c) Telecom NZ Ltd
 # Originally created by David Hunter <david.hunter@gen-i.co.nz>
 # Distributed under the Artistic License 2.0
-# NetAddr::IP module is (c) Luis E. Muñoz 1999-2007 and (c) Michael Robinton 2006-2010
+# NetAddr::IP module is (c) Luis E. MuÃ±oz 1999-2007 and (c) Michael Robinton 2006-2010
 
 # This script is provided on an "as is" and "as available" basis and your use of it is at your sole risk.
 # Telecom New Zealand Limited (including its subsidiaries, affiliates, employees, directors, officers, agents
 # or subcontractors) expressly disclaims all warranties of any kind related to the script, either expressed
-# or implied, and all liability for any loss or damage associated with use of the script.
+# or implied, and all liability for any loss or damage associated with use of the script. 
 
 use 5.012;
 no strict;
