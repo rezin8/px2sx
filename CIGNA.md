@@ -57,5 +57,5 @@ Before we use the command, there's some housekeeping that we need to take care o
             pols.txt - This is the security policy.  
             nats.txt - Uhh.... NATS!  
             routes.txt - Ignore this... not our problem.  
-4. Now the heavy lifting of the conversion has been done, but there's still going to be issues to clear up. You'll need to go through the new config and make sure that everything is correct. You'll probably find that the script 
+4. Now the heavy lifting of the conversion has been done, but there's still going to be issues to clear up. You'll need to go through the new config and make sure that everything is correct. You'll probably find that the script misses some tcp-udp groups and some object groups. Just go through everything to make sure that you have a one-to-one conversion.
 	
