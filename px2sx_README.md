@@ -31,7 +31,7 @@ The NetAddr::IP module is (c) Luis E. Muñoz 1999-2007 and (c) Michael Robinton 
 
 Note that file handling is somewhat unforgiving, in that it will happily and without
 prompting overwrite any output files with the same name if run more than once. You
-have been warned.
+have been warned. 
 
 In order to convert the default applications from PIX to SRX terminology it reads a
 services.csv file which is included. The format is simple; protocol,PIX name,Junos name.
