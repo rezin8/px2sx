@@ -8,7 +8,8 @@ Installation:
 3. From the command prompt, move to C:\Strawberry.
     1. px2sx.pl requires the NetAddr::IP dependency. In order to install that, we can use cpan.
 4. From C:\Strawberry, enter: cpan -i NetAddr::IP
-    1. This may take a while. cpan is going to reach out to download the needed files, then install them. It may fail. If it does, wait a bit and try again.
+    1. This may take a while. cpan is going to reach out to download the needed files, then install them. It will probably fail saying that you need to authenticate to the proxy.
+	2. To authenticate to the proper sites, open http://cpan.strawberryperl.com/ and http://www.cpan.org/ in a browser window. This will authenticate you against the MWG. Once you have opened those addresses in a browser, go back and try the cpan -i NetAddr::IP command again. It should work.
 	
 --------------------------------------------------------------------------------
 	
