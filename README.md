@@ -38,11 +38,11 @@ Before we use the command, there's some housekeeping that we need to take care o
             B2B-INSIDE,10.0.0.0/8  
             B2B-INSIDE,172.16.0.0/12  
             B2B-INSIDE,192.168.0.0/16  
-            *CLIENT-ZONE-NAME*,10.XXX.0.0/16  
+            \*CLIENT-ZONE-NAME*,10.XXX.0.0/16  
 2. Open the ASA config file. We'll need to remove any remarked lines in the ACL. 
     1. Ctrl+H to bring up the Replace menu (or Search -> Replace)
     2. Click "Regular Expression" in the bottom left Search Mode box.
-    3. In "Find What", enter: .*remark.*
+    3. In "Find What", enter: .\*remark.*
     4. Leave "Replace With" blank.
     5. Click "Replace All". Close the Find box.
     6. Click the Edit menu -> Line Operations -> Remove Empty Lines (Containing Blank characters). This will remove all the blank lines created by the Replace command.
